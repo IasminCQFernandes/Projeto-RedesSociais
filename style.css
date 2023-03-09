@@ -1,0 +1,64 @@
+@charset "UTF-8"
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background: url('imagens/animacao.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    margin: -20px;
+    height: 100vh;
+    position: relative;
+  
+}
+
+section#telefone{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+
+    height: 500px;
+    width: 400px;
+    background-color: aqua;
+    background: url('imagens/segurando.png') no-repeat;
+}
+iframe#tela{
+ 
+    position: relative;
+    top: 51px;
+    left: 51px;
+    width: 200px;
+    height: 343px;
+    
+}
+section#sociais img{
+    width: 50px;
+   box-sizing: border-box; /*borda fazendo parte da caixa*/
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.466);
+
+}
+section#sociais {
+    margin-right: 70px;
+    text-align: right;
+    padding-top: 50px;
+    padding-left:10px ;
+
+}
+section#sociais img:hover{
+    border: 3px solid rgba(128, 0, 128, 0.479);
+}
